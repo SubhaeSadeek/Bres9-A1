@@ -11,6 +11,8 @@ html {
 /* nav bar style */
 nav {
 	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
 	display: flex;
 	justify-content: space-between;
 	margin: 0px auto;
@@ -30,8 +32,113 @@ nav button {
 }
 
 /* main section design */
+
+/* -----hero section----- */
+
 .hero {
 	width: 1440px;
 	height: 652px;
 	background-image: url("../images/Hero-bg.png");
+	margin-top: 20px;
+	margin-left: auto;
+	margin-top: auto;
+	display: flex;
+	align-items: center;
+}
+.hero-content {
+	width: 998px;
+	height: 581px;
+	margin: 0px auto;
+	text-align: center;
+}
+.hero-content h1 {
+	width: 998px;
+	margin: 0px auto;
+	color: #0d1321;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 68px; /* 141.667% */
+	margin-bottom: 24px;
+}
+.hero-content p {
+	width: 852px;
+	margin: 0px auto;
+}
+.hero-content button {
+	margin-top: 32px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 21px 24px;
+	border-radius: 8px;
+	background: #0d1321;
+}
+/* ----main section */
+.why-web-development {
+	width: 1140px;
+	height: 1393px;
+	margin-top: 74px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 80px 97px;
+	border-radius: 16px;
+	background: rgba(13, 19, 33, 0.02);
+}
+.section-heading h1 {
+	color: #0d1321;
+	text-align: center;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 800;
+	margin-bottom: 24px;
+}
+
+.section-heading p {
+	width: 852px;
+	height: 52px;
+	margin: 0px auto;
+	color: #0d1321;
+	text-align: center;
+	font-family: "Azeret Mono";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	opacity: 0.7;
+	text-align: center;
+}
+
+.card-container {
+	padding: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+.card-container h3 {
+	color: rgba(13, 19, 33, 0.7);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	width: 390px;
+}
+.card-container p {
+	width: 488px;
+	color: #0d1321;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	opacity: 0.7;
+	margin-top: 16px;
+}
+
+.btn-container {
+	padding: 12px 20px;
+	border: 1px solid #0d1321;
+	color: #0d1321;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	opacity: 0.7;
+	margin-top: 32px;
 }
