@@ -15,7 +15,7 @@ nav {
 	margin-right: auto;
 	display: flex;
 	justify-content: space-between;
-	margin: 0px auto;
+	margin: 10px auto 38px;
 }
 nav button {
 	border-radius: 8px;
@@ -73,6 +73,7 @@ nav button {
 	padding: 21px 24px;
 	border-radius: 8px;
 	background: #0d1321;
+	cursor: pointer;
 }
 /* ----main section */
 .why-web-development {
@@ -144,10 +145,10 @@ nav button {
 }
 
 /* ----------------- */
-/* ----my inspiration sectjion---- */
+/* ----my inspiration section---- */
 .my-inspiration {
 	width: 1140px;
-	height: 625px;
+	height: 800px;
 	margin: 100px auto 0px;
 	background: #fff;
 }
@@ -159,4 +160,54 @@ nav button {
 }
 .video-render iframe {
 	border-radius: 16px;
+}
+
+/* my current target */
+.my-current-target {
+	width: 1140px;
+	height: 460px;
+	margin: 70px auto 0px;
+}
+.my-current-target-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	margin-top: 48px;
+}
+.card-current-target {
+	padding: 40px;
+}
+.card-current-target h3 {
+	color: #0d1321;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 36px;
+}
+.card-current-target p {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	opacity: 0.7;
+}
+.card-current-target a {
+	color: #0d1321;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+#current-section1 {
+	border-radius: 16px;
+	background: rgba(255, 76, 30, 0.05);
+}
+#current-section2 {
+	border-radius: 16px;
+	background: rgba(0, 76, 232, 0.05);
+}
+#current-section3 {
+	border-radius: 16px;
+	background: rgba(255, 223, 0, 0.05);
 }
